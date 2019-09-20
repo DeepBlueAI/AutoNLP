@@ -17,6 +17,8 @@ You can change the argument `dataset_dir` to other datasets, and change the argu
 
 And we use the embedding model provided by the competition, which is saved in `/app/embedding`.
 
+The file `ac.cpython-36m-x86_64-linux-gnu.so` is compiled by Cython, and its source code is `ac.pyx` .
+
 ### Dataset
 
 This challenge focuses on the problem of **multi-class text categorization** collected from real-world businesses. The datasets consist of content file, label file and meta file, where content file and label file are split into train parts and test parts:
